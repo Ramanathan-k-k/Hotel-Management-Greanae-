@@ -1,0 +1,26 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0 ;
+}
+.about .a-main{
+    display: flex ;
+    align-items: center;
+    justify-content:center;
+    width: 700px ;
+    background-color:rgba(4, 4, 75, 0.288);
+    border-radius: 10px ;
+    color:white;
+    position: relative;
+    top: 60px ;
+    text-align: center;
+    margin-left: 750px ;
+    margin-top: 5px ;
+    
+}
+.banner{
+    background:url(brooke-lark-bivUtyUT6mk-unsplash.jpg);
+    background-size: cover ;
+    background-position: center ;
+    height: 100vh ;
+}

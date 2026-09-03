@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box ;
+    padding: 0 ;
+    margin: 0 ;
+}
+body{
+    font-family: "poppins","sans-serif";
+}
+.banner{
+    min-height: 100vh ;
+    background: linear-gradient(rgba(3, 3, 92, 0.386),rgba(8, 5, 86, 0.458)),url("nick-karvounis-Ciqxn7FE4vE-unsplash.jpg") center/cover no-repeat;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    color: #fff ;
+    padding-bottom: 20px ;
+}
+.card-cont{
+    display: grid ;
+    grid-template-columns: 420px 420px ;
+}
+.card-img{
+    background:linear-gradient(rgba(31, 31, 126, 0.271),rgba(26, 23, 100, 0.321)), url("jakub-kapusnak-4f4YZfDMLeU-unsplash.jpg") center/cover no-repeat ;
+    border-radius: 8px ;
+    
+}
+.banner h2{
+    padding-bottom: 40px ;
+    margin-bottom: 20px ;
+}
+.c-cont{
+    background: #fff ;
+    height: 330px ;
+}
+.c-cont h3{
+    text-align: center ;
+    color: #120078e0 ;
+    padding: 25px 0 10px 0 ;
+    font-size: 26px ;
+    font-weight: 500 ;
+}
+.form-row{
+    display: flex ;
+    width: 90% ;
+    margin: 0 auto ;
+}
+form select, form input{
+    display:block ;
+    width: 100% ;
+    margin: 15px 25px ;
+    padding: 5px ;
+    font-size: 15px ;
+    font-family: "poppins","sans-sarif" ;
+    outline: none ;
+    border: none ;
+    border-bottom: 1px solid #eee ;
+    font-weight: 300 ;
+}
+forrm input[type=text],form input[type=number],form input::placeholder,select{
+    color:#9a9a9a ;
+}
+form input[type=submit]{
+    color: #fff ;
+    background: #120078e0 ;
+    padding: 12px 0 ;
+    border-radius: 4px ;
+    cursor: pointer ;
+}
+form input[type=submit]:hover{
+    opacity: 0.9 ;
+}
